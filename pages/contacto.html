@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilo.css">
+    <title>Granja Casalinos</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/Iconos/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/Iconos/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/Iconos/favicon-16x16.png">
+    <link rel="manifest" href="/images/Iconos/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&family=Rubik&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+		    <h3 class="titulo">Polleria Granja Casalinos</h3>
+		    
+		    <nav>
+          <img class="centrado" src="../images/logogranjacasalino.jpg" alt="Logo Granja Casalino" width="300">
+			    <ul class="menu">
+				    <li><a href="../index.html">Inicio</a></li>
+				    <li><a href="./nosotros.html">Nosotros</a></li>
+				    <li><a href="./productosfrescos.html">Productos Frescos</a></li>
+				    <li><a href="./productoscongelados.html">Productos Congelados</a></li>
+				    <li><a href="./contacto.html">Contacto</a></li>
+			  </ul>
+        <br>
+		</nav>
+	</header>
+    <div class="contact_form">
+
+        <div class="formulario">      
+          <h1 class="titulo">Contactanos!</h1>
+            <h3 class="texto-parrafo">Escríbenos y en breve los pondremos en contacto contigo</h3>
+    
+    
+              <form action="submeter-formulario.php" method="post">       
+    
+                
+                    <p>
+                      <label for="nombre" class="colocar_nombre">Nombre
+                        <span class="obligatorio">*</span>
+                      </label>
+                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                    </p>
+                  
+                    <p>
+                      <label for="email" class="colocar_email">Email
+                        <span class="obligatorio">*</span>
+                      </label>
+                        <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                    </p>
+                
+                    <p>
+                      <label for="telefone" class="colocar_telefono">Teléfono
+                      </label>
+                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                    </p>    
+                  
+                     
+                  
+                    <p>
+                      <label for="mensaje" class="colocar_mensaje">Mensaje
+                        <span class="obligatorio">*</span>
+                      </label>                     
+                                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Dejanos tu mensaje"></textarea> 
+                                    </p>                    
+                  
+                    <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+    
+                    <p class="aviso">
+                      <span class="obligatorio"> * </span>los campos son obligatorios.
+                    </p>          
+                
+              </form>
+        </div>  
+        <div>
+            <iframe class="centrado" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13095.121028500567!2d-57.908619!3d-34.8617484!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xef16476524b59a13!2sGranja%20Casalino&#39;s!5e0!3m2!1ses-419!2sar!4v1647904036786!5m2!1ses-419!2sar" width=900" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    <footer>
+        <div class="footer">
+            <h4>Contacto</h4>
+            <p>+54 2214691780</p>
+        </div>
+        <div class="footer">
+            <h4>Mail</h4>
+            <p>granjacasalinos@gmail.com</p>
+        </div>
+        <div class="footer">
+            <h4>Direccion</h4>
+            <p>La Paz n°520 Ensenada, Buenos Aires.</p>
+        </div>
+    </footer>
+</body>
+</html>
