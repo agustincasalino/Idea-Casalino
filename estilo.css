@@ -51,7 +51,11 @@ body{
 .menu li a:hover{
     background-color:orange;
     color: whitesmoke;
-    border-radius: 10%;
+    border-radius: 5%;
+    transition-property: initial;
+    transition-delay: 100ms;
+    transition-duration: 1000ms
+
 }
 .container-index{
     max-width: 1200px;
