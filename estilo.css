@@ -53,8 +53,8 @@ body{
     color: whitesmoke;
     border-radius: 5%;
     transition-property: initial;
-    transition-delay: 0.1;
-    transition-duration: 1s;
+    transition-delay: 100ms;
+    transition-duration: 1000ms
 
 }
 .container-index{
