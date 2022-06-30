@@ -59,7 +59,7 @@ body{
 }
 .container-index{
     max-width: 1200px;
-    width: 90%;
+    width: 100%;
     margin: 10px auto;
     display: grid;
     grid-template-columns: repeat(2 1fr);
