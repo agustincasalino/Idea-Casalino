@@ -1,0 +1,84 @@
+
+
+
+.container-index{
+    max-width: 1200px;
+    width: 100%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-rows: repeat(2 1fr);
+    grid-template-areas:
+    "pic1 pic2"
+    "pic3 pic4";
+}
+.img1{
+    grid-area: pic1;
+}
+.img2{
+    grid-area: pic2;
+}
+.img3{    
+    grid-area: pic3;
+}
+.img4{
+    grid-area: pic4;
+}
+.centrado{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-nosotros{
+    display: block;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+}
+.titulo{
+    text-decoration: solid;
+    font-size: xx-large;
+    text-align: center;
+    padding: 2rem;
+}
+.texto-parrafo{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+/* estilo nosotros.html */
+div{
+    h3{text-decoration:underline;
+        text-align: center;
+        margin: 20px
+    }
+    p{  text-decoration:solid;
+        text-align: center;
+        margin: 20px;
+    }
+ }
+
+ /* estilo nosotros.html*/
+
+
+ 
+/* Estilo contacto*/
+.red {
+    color: red;
+}
+
+/* Estilo contacto */
+
+@media (max-width: 500px){
+    .container-index{
+        grid-template-columns: repeat(1fr);
+        grid-template-rows: repeat(4,1fr);
+        grid-template-areas:
+        "pic1"
+        "pic2"
+        "pic3"
+        "pic4";
+    }
+}
