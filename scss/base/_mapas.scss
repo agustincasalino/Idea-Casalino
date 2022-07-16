@@ -1,0 +1,12 @@
+$ancho: 1rem;
+
+$seguinos:(
+    instagram: 3rem,
+    facebook: 3rem,
+);
+
+@each $var, $radio in $seguinos {
+    .btn-#{$var}{
+        border-radius:  $radio;
+    }
+}

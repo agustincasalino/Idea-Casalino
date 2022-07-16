@@ -1,0 +1,10 @@
+@mixin sizes ($width, $height){
+    height: $height;
+    width: $width;
+}
+.box{
+    @include sizes(80%, 80%);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}

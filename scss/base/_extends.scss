@@ -1,0 +1,9 @@
+%boton {
+    width: 4rem;
+    height: 4rem;
+    margin: 0.5rem
+  }
+  
+  .btn-extend {
+    @extend %boton;
+  }
