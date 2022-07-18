@@ -94,11 +94,6 @@ div p {
     grid-template-areas: "pic1" "pic2" "pic3" "pic4";
   }
 }
-footer {
-  text-align: center;
-  background-color: rgba(128, 128, 128, 0.486);
-}
-
 /* componentes*/
 /* mapas */
 .btn-instagram {
@@ -107,6 +102,13 @@ footer {
 
 .btn-facebook {
   border-radius: 3rem;
+}
+
+footer {
+  background-color: rgba(128, 128, 128, 0.486);
+  color: black;
+  text-align: center;
+  padding: 1rem;
 }
 
 /* mapas */
